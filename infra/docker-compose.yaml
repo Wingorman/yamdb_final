@@ -8,7 +8,7 @@ services:
     env_file:
       - ./.env
   web:
-    images: wingorman/infra:latest
+    image: vafansjev/yamdb_final:latest
     restart: always
     volumes:
       - static_value:/app/static/
