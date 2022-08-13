@@ -13,8 +13,8 @@ from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
-from .mixins import ListPostViewSet, MixinsReviewViewSet
 
+from .mixins import ListPostViewSet, MixinsReviewViewSet
 from .permissions import (IsAdmin, IsAdminOrReadOnly, NicePersonOrReadOnly,
                           ReadOnly)
 from .serializers import (CategorySerializer, CommentSerializer,
