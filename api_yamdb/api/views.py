@@ -11,7 +11,7 @@ from rest_framework.generics import get_object_or_404
 from rest_framework.pagination import PageNumberPagination
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-from .mixins import MixinsReviewViewSet, ListPostViewSet
+from .mixins import ListPostViewSet, MixinsReviewViewSet
 from reviews.models import Category, Genre, Review, Title
 from users.models import User
 
